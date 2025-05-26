@@ -16,6 +16,8 @@ let isLoggedIn = true;
 let isLoggedOut = false;
 console.log(isLoggedIn);
 console.log(isLoggedOut);
+console.log(typeof(isLoggedIn));
+console.log(typeof(isLoggedOut));
 
 //null
 let emptyValue = null;
@@ -57,3 +59,4 @@ console.log('123' - 123); // Output: 0
 console.log('123' + 123 + 123); // Output: 123123123
 console.log(typeof('123' + 123));
 console.log(typeof('123'* 123)); // Output: number
+// x,vxzv
