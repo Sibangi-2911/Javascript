@@ -60,3 +60,19 @@ console.log('123' + 123 + 123); // Output: 123123123
 console.log(typeof('123' + 123));
 console.log(typeof('123'* 123)); // Output: number
 // x,vxzv
+
+// Mutiline String
+let multi = "This is a \n" + "multiline string.";
+console.log(multi)
+
+let template_literal = `This is a 
+    multiline string`;
+console.log(template_literal)
+
+let first_name = "Sibangi"
+let greeting = 'Hello'
+console.log(`${greeting} ${first_name}`)
+
+let x = 10;
+let y = 20;
+console.log(`The sum of ${x} and ${y} is ${x+y}.`)
