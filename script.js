@@ -76,3 +76,16 @@ console.log(`${greeting} ${first_name}`)
 let x = 10;
 let y = 20;
 console.log(`The sum of ${x} and ${y} is ${x+y}.`)
+
+//BigInt
+let max_integer = Number.MAX_SAFE_INTEGER;
+console.log(max_integer)
+console.log(typeof max_integer)
+console.log(max_integer+2)
+console.log(max_integer+100)
+
+let big_integer = BigInt(max_integer)
+console.log(big_integer)
+console.log(typeof big_integer)
+console.log(big_integer+2n)
+console.log(big_integer+1000n)
