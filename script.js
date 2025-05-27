@@ -89,3 +89,10 @@ console.log(big_integer)
 console.log(typeof big_integer)
 console.log(big_integer+2n)
 console.log(big_integer+1000n)
+
+//Symbol primitive type used to give unique value
+let symbol1 = Symbol();
+let symbol2 = Symbol();
+console.log(symbol1==symbol2);
+console.log(symbol1);
+console.log(symbol2);
