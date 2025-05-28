@@ -18,3 +18,9 @@ let name = null;
 console.log(name ?? "Default value");
 
 console.log(num ?? 15);
+
+//Null assignment
+let x1 = null;
+console.log(x1);
+x1 ??= 30;
+console.log(x1);
