@@ -21,3 +21,14 @@ audi.brand = "Audi";
 audi.color = "red";
 audi.oWner = "Sibangi";
 console.log(audi);
+
+//spread operator for avoiding mutability
+let newCar = audi;
+newCar.color = "white";
+console.log(newCar.color);
+console.log(audi.color); // here also color changes to white
+
+let carCopy = {...audi};
+carCopy.color="pink";
+console.log(carCopy.color);
+console.log(audi.color); // still remains white no change
