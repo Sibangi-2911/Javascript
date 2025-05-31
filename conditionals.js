@@ -32,3 +32,28 @@ switch(choosen_option) {
     console.log("Invalid option");
     break;
 }
+
+let operator = '+';
+let numa = 12;
+let numb = 3;
+let result;
+switch(operator){
+  case '+':
+    result = numa+numb;
+    console.log("Addition: ",result);
+    break;
+  case '-':
+    result = numa-numb;
+    console.log("Subtraction: ",result);
+    break;
+  case '*':
+    result = numa*numb;
+    console.log("Multiplication: ",result);
+    break;
+  case '/':
+    result = numa/numb;
+    console.log("Division: ", result);
+    break;
+  default:
+    console.log("Please enter a valid operator");
+}
