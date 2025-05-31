@@ -14,3 +14,7 @@ let newnumbers1 = [...numbers1];
 numbers1.push(69);
 console.log(numbers1);
 console.log(newnumbers1);
+numbers1.pop();
+numbers1.pop();
+console.log(numbers1);
+console.log(newnumbers1);
