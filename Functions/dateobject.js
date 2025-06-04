@@ -1,0 +1,11 @@
+let currentDate = new Date();
+console.log(currentDate);
+let specificDate = new Date(2024,11,29,15,0,0);
+console.log(specificDate);
+console.log(currentDate.getTime());
+console.log(currentDate.getFullYear());
+console.log(currentDate.getMonth());
+console.log(currentDate.getDay());
+console.log(currentDate.toDateString());
+console.log(typeof currentDate.toString());
+console.log(currentDate.toTimeString());
