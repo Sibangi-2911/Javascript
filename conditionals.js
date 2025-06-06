@@ -32,7 +32,7 @@ switch(choosen_option) {
     console.log("Invalid option");
     break;
 }
-
+//switch case
 let operator = '+';
 let numa = 12;
 let numb = 3;
