@@ -1,4 +1,4 @@
-//Combine arrays using spraed operator
+//Combine arrays using spraed operator and also can work with nested array using for of loop
 let numbers = [1,2,3];
 let more_numbers = [4,5,6];
 let combined_numbers = [...numbers,...more_numbers];
