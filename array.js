@@ -1,4 +1,4 @@
-// Array examples
+// Array examples added
 let fruits = ["Apple","Banana","Strawberry","Mango","Grapes"]
 console.log(fruits);
 console.log(fruits[0]);
