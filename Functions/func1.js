@@ -23,3 +23,11 @@ console.log(add1(10,20));
 
 const multi = (a,b)=>a*b;
 console.log(multi(8,2));
+
+//default parameters
+function orderCoffee(size="medium",type="black"){
+  console.log(`You have oredered a ${size} sized ${type} coffee.`);
+}
+orderCoffee();
+orderCoffee("small");
+orderCoffee("small","latte");
