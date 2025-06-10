@@ -22,3 +22,7 @@ let paragraphArray = Array.from(classes);
 console.log(paragraphArray);
 console.log(typeof paragraphArray);
 
+//iterate the html elements using for of loop
+for(para of classes){
+  console.log(para.innerText);
+}
