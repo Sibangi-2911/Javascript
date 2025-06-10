@@ -16,3 +16,9 @@ let tags = document.getElementsByTagName("div");
 console.log(tags);
 console.log(tags.length);
 console.log(tags[2]);
+
+//converting html collection into array
+let paragraphArray = Array.from(classes);
+console.log(paragraphArray);
+console.log(typeof paragraphArray);
+
