@@ -10,3 +10,9 @@ let classes = document.getElementsByClassName("content");
 console.log(classes);
 console.log(classes.length);
 console.log(classes[0]);
+
+//select elements by tag name
+let tags = document.getElementsByTagName("div");
+console.log(tags);
+console.log(tags.length);
+console.log(tags[2]);
