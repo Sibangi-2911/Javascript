@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First and Last Child/Element Example</title>
+    <style>
+      .container {
+        background-color: lightgray;
+        padding: 10px;
+        margin: 20px 0;
+      }
+      .child {
+        background-color: lightblue;
+        padding: 10px;
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Understanding First and Last Child/Element</h1>
+
+    <!-- Parent Container -->
+    <div class="container" id="parent">
+      <!-- Text Node between divs -->
+      <div class="child">First Child (Element)</div>
+      <!-- This is a text node -->
+      <div class="child">Second Child (Element)</div>
+      <span>This is a span (Element)</span>
+    </div>
+
+    <script src="firstlastchild.js"></script>
+  </body>
+</html>
