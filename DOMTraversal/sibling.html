@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selecting Sibling Nodes Example</title>
+    <style>
+      .sibling {
+        padding: 10px;
+        margin: 5px 0;
+        background-color: lightblue;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Selecting Siblings of Nodes in the DOM</h1>
+
+    <!-- Sibling Nodes -->
+    <div id="first-sibling" class="sibling">First Sibling</div>
+    <!-- Text Node -->
+    This is a text node between siblings.
+    <div id="second-sibling" class="sibling">Second Sibling</div>
+    <div id="third-sibling" class="sibling">Third Sibling</div>
+
+    <script src="sibling.js"></script>
+  </body>
+</html>
