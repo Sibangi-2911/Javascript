@@ -19,3 +19,7 @@ eventArea.addEventListener("mouseup", function(){
 eventArea.addEventListener("click", function(){
   console.log("Area was clicked");
 });
+eventArea.addEventListener("mousedbl", function(){
+  console.log("Mouse button is up");
+  this.style.backgroundColor = "red";
+});
