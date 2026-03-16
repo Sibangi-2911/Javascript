@@ -60,3 +60,44 @@ for (let i = 0; i < marks.length; i++) {
   sum += marks[i];
 }
 console.log(sum);
+
+console.log("************************************************************");
+
+//Array Functions - reduce filter map
+//Reduce - to get single value from an array- iterate or update values
+let totalSum = marks.reduce(
+  (AccumulartorsSum, mark) => AccumulartorsSum + mark,
+  0,
+);
+console.log(totalSum);
+console.log("************************************************************");
+
+//Get only even numbers from the array - create the new even number array
+var scores = [12, 13, 14, 15, 16];
+var evenScores = [];
+for (let i = 0; i < scores.length; i++) {
+  if (scores[i] % 2 == 0) {
+    evenScores.push(scores[i]);
+  }
+}
+console.log(evenScores);
+//Alternate way is filter method to filter an array - condition to be satisfied
+let newFilterEvenScores = scores.filter((score) => score % 2 == 0);
+console.log(newFilterEvenScores);
+
+console.log("************************************************************");
+
+//Map - to create a new array by performing some operations on the existing array(from original value mapping to new values)
+//Create new array with even number of scores and multiply each value with 3
+let mappedArray = newFilterEvenScores.map((score) => score * 3);
+console.log(mappedArray);
+
+console.log("************************************************************");
+
+//Chaining- to avoid such big code
+var scores1 = [12, 13, 14, 15, 16, 17, 18];
+let sumValue = scores1
+  .filter((score) => score % 2 == 0)
+  .map((score) => score * 3)
+  .reduce((sum, val) => sum + val, 0);
+console.log(sumValue);
