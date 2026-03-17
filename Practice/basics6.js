@@ -1,4 +1,5 @@
 //String & it's methods
+const Person = require("./basics8.js");
 let day = "tuesday ";
 console.log(day.length); // length of string
 
@@ -48,3 +49,6 @@ while (val != -1) {
   val = newQuote.indexOf("day", val + 1);
 }
 console.log(count);
+
+let person = new Person("Ritika", "Mohanty");
+console.log(person.fullName());
